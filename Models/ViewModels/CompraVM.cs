@@ -3,7 +3,7 @@
     public class CompraVM
     {
         public Compra OCompra{ get; set; }
-        public List<DetalleCompra> oDetalleCompra { get; set; }
+        public List<DetalleCompra> oDetalleCompra { get; set; } = [];
 
     }
 }
